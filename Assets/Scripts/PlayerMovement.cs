@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    Animator m_Animator;
     Vector3 m_Movement;
     
     // Start is called before the first frame update
@@ -22,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
       m_Movement.Normalize();
 
       bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
-      bool hasVerticalInput = !Mathf.Approximately (vertical, 0f);
+      bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
       bool isWalking = hasHorizontalInput || hasVerticalInput;
     }
 }
