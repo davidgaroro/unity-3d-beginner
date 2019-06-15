@@ -18,8 +18,8 @@ public class PlayerMovement : MonoBehaviour
       m_Rigidbody = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
+    // FixedUpdate is called every fixed framerate frame
+    void FixedUpdate()
     {
       float horizontal = Input.GetAxis("Horizontal");
       float vertical = Input.GetAxis("Vertical");
