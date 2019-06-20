@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float turnSpeed = 20f;
     Animator m_Animator;
     Rigidbody m_Rigidbody;
+    AudioSource m_AudioSource;
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
 
@@ -16,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     {
       m_Animator = GetComponent<Animator>();
       m_Rigidbody = GetComponent<Rigidbody>();
+      m_AudioSource = GetComponent<AudioSource>();
     }
 
     // FixedUpdate is called every fixed framerate frame
