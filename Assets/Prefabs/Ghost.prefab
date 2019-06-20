@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1018542976690730017}
   - component: {fileID: 1018542976697654215}
+  - component: {fileID: 4087721410847803102}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
@@ -52,6 +53,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &4087721410847803102
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018542976690366465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 1.2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1018542976690366467
 GameObject:
   m_ObjectHideFlags: 0
