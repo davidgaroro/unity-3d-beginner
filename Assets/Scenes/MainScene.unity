@@ -4929,7 +4929,9 @@ MonoBehaviour:
   displayImageDuration: 1
   player: {fileID: 2121595750}
   exitBackgroundImageCanvasGroup: {fileID: 679999369}
+  exitAudio: {fileID: 66882042}
   caughtBackgroundImageCanvasGroup: {fileID: 53598830}
+  caughtAudio: {fileID: 1803420604}
 --- !u!4 &1422764181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9105714335089145304, guid: a4b516bd460a8894c9ec91a6a0e95bef,
