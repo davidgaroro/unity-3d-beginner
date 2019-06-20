@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4087721410847803102}
   - component: {fileID: 8609818258271546790}
   - component: {fileID: 2489686596144953448}
+  - component: {fileID: 1978329437465998197}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
@@ -108,6 +109,18 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1978329437465998197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018542976690366465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d360ca0170e181f448a5626d3849bcc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1018542976690366467
 GameObject:
   m_ObjectHideFlags: 0
