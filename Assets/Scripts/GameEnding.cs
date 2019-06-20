@@ -35,15 +35,15 @@ public class GameEnding : MonoBehaviour
   {
     if (m_IsPlayerAtExit)
     {
-      EndLevel(exitBackgroundImageCanvasGroup, false);
+      EndLevel(exitBackgroundImageCanvasGroup, false, exitAudio);
     }
     else if (m_IsPlayerCaught)
     {
-      EndLevel(caughtBackgroundImageCanvasGroup, true);
+      EndLevel(caughtBackgroundImageCanvasGroup, true, caughtAudio);
     }
   }
 
-  void EndLevel(CanvasGroup imageCanvasGroup, bool doRestart)
+  void EndLevel(CanvasGroup imageCanvasGroup, bool doRestart, AudioSource audioSource)
   {
     m_Timer += Time.deltaTime;
     imageCanvasGroup.alpha = m_Timer / fadeDuration;
